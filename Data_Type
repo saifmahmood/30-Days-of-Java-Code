@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class data_type {
+	public static void main(String[]args) {
+  /* Given inputs integer, double and string  */ 
+		int i = 4;
+		double d = 4.0;
+		String s = "Hackerrank";
+		
+		Scanner scan = new Scanner(System.in);
+  /* Provide new inpouts */  
+		int i2;
+		double d2;
+		String s2;
+	
+  /* Read the inputs */
+		i2 = scan.nextInt();
+		d2 = scan.nextDouble();
+		
+		scan.nextLine();
+		s2 = scan.nextLine();
+	
+  /* Print the output */
+		System.out.println(i + i2);
+		System.out.println(d + d2);
+		System.out.println(s.concat(s2));
+		
+		scan.close();
+		
+	}
+
+}
