@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Intro_Conditional_Statement {
+	public static void main(String[]args) {
+		
+		Scanner scan = new Scanner(System.in);
+		/* Take input*/
+		int n = scan.nextInt();
+		scan.close();
+		/*conditional statements*/
+		if (n % 2 == 0) {
+			if (n < 6) System.out.println("Not Wierd");
+			else if (n < 21) System.out.println("Wierd");
+			else System.out.println("Not Wierd");
+		}
+		else System.out.println("Weird");
+	}
+}
